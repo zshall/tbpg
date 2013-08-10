@@ -1,0 +1,33 @@
+/**
+ * Tile Puzzle
+ * Level Editor CSS
+ * Zach Hall, 2013
+ */
+
+html {
+	height:100%;
+}
+
+#level {
+	width: -webkit-calc(100% - 300px);
+	width: -moz-calc(100% - 300px);
+	width: calc(100% - 300px);
+	overflow: scroll;
+}
+
+#editorWindow {
+	position: fixed;
+	right:8px;
+	top: 10px;
+	width:280px;
+	border: 2px black solid;
+	background-color:white;
+	padding:2px;
+}
+
+#tiles .tile {
+	width:16px;
+	height: 16px;
+	display:inline-block;
+	background-size: 16px, 16px;
+}

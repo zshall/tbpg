@@ -1,0 +1,50 @@
+/**
+ * Tile Puzzle
+ * Default Skin
+ * Zach Hall, 2013
+ **/
+
+/* Basic: wall, floor, and player */
+.wall {
+	background-color: #bbb;
+	box-shadow: inset 0 0 10px #333;
+}
+
+.floor {
+	background-color: #eee;
+	box-shadow: inset 0 0 1px #333;
+}
+
+.player, .playerSouth { background-image: url("../img/default/player.gif"); }
+.playerNorth { background-image: url(../img/default/playerNorth.gif); }
+.playerEast { background-image: url(../img/default/playerEast.gif); }
+.playerWest { background-image: url(../img/default/playerWest.gif); }
+
+/* Tiles */
+.bomb { background-image: url("../img/default/bomb.gif"); }
+.bombStatic { background-image: url("../img/default/static/bomb.gif"); }
+.strawberry { background-image: url("../img/default/strawberry.gif"); }
+.exit { background-image: url("../img/default/exit.gif"); }
+.exitStatic { background-image: url("../img/default/static/exit.gif"); }
+.dirt { background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAGklEQVQIW2MMV+T4ryklxsDYYC33//qzVwwALdsGWiARNcwAAAAASUVORK5CYII=") repeat; background-size: 2px, 2px !important; }
+
+/* Directional / special tiles */
+.forceRandom, .forceRandomStatic { background-image: url("../img/default/forceRandom.gif"); }
+.forceNorth { background-image: url("../img/default/forceNorth.gif"); }
+.forceSouth { background-image: url("../img/default/forceSouth.gif"); }
+.forceEast { background-image: url("../img/default/forceEast.gif"); }
+.forceWest { background-image: url("../img/default/forceWest.gif"); }
+.forceNorthStatic { background-image: url("../img/default/static/forceNorth.gif"); }
+.forceSouthStatic { background-image: url("../img/default/static/forceSouth.gif"); }
+.forceEastStatic { background-image: url("../img/default/static/forceEast.gif"); }
+.forceWestStatic { background-image: url("../img/default/static/forceWest.gif"); }
+
+/* Color table: north: red, south: blue, east: green, west: yellow */
+.doorRed { background-image: url("../img/default/doorRed.gif"); }
+.doorBlue { background-image: url("../img/default/doorBlue.gif"); }
+.doorGreen { background-image: url("../img/default/doorGreen.gif"); }
+.doorYellow { background-image: url("../img/default/doorYellow.gif"); }
+.keyRed { background-image: url("../img/default/keyRed.gif"); }
+.keyBlue { background-image: url("../img/default/keyBlue.gif"); }
+.keyGreen { background-image: url("../img/default/keyGreen.gif"); }
+.keyYellow { background-image: url("../img/default/keyYellow.gif"); }

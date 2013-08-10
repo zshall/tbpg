@@ -1,0 +1,17 @@
+{
+	"foreground": [
+		["", "", {"tile": "defaultPlayerTile"}, ""],
+		["", "", "", ""],
+		["", "", "", ""]
+	],
+	"background": [
+		[{"tile": "TFloor"}, {"tile": "TFloor"}, {"tile": "TFloor"}, {"tile": "TFloor"}],
+		[{"tile": "TFloor"}, {"tile": "TStrawberry"}, {"tile": "TFloor"}, {"tile": "TFloor"}],
+		[{"tile": "TForceFloor", "facing": "North"}, {"tile": "TKey", "facing": "West"}, {"tile": "TFloor"}, {"tile": "TExit"}]
+	],
+	"title": "4x4 nothingness",
+	"password": "4X4N",
+	"hint": "",
+	"required": 1,
+	"time": 0
+}
